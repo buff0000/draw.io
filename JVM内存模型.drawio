@@ -1,0 +1,393 @@
+<mxfile host="www.draw.io" modified="2019-11-07T16:14:56.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" etag="wumc0fI283dextQboqLc" version="12.2.2" type="github" pages="1">
+  <diagram id="X_woUP3ET1VslQlFR_BW" name="Page-1">
+    <mxGraphModel dx="1851" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-3" target="INB0uB4eUvnYEFWTCzHM-5" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-3" value="&lt;span style=&quot;white-space: normal&quot;&gt;JAVA内存模型&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="280" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-5" target="INB0uB4eUvnYEFWTCzHM-6" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-5" target="INB0uB4eUvnYEFWTCzHM-7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-5" target="INB0uB4eUvnYEFWTCzHM-13" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-5" value="作用" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="280" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-6" value="一个线程对共享变量的写入何时对另一个线程可见" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="240" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-7" target="INB0uB4eUvnYEFWTCzHM-8" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-7" value="换言之，定义了线程与主存的抽象关系" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-8" value="线程之间的共享变量储存在主内存中，每个线程都有一个私有的本地内存，本地内存储存了线程可以读、写共享变量的副本" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="315" width="340" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-13" target="INB0uB4eUvnYEFWTCzHM-14" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-13" value="共享变量" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="160" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-14" value="实例、数组、静态域" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-17" value="重排序" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="850" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-18" target="INB0uB4eUvnYEFWTCzHM-19" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-18" value="源代码" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="163" y="710" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-19" target="INB0uB4eUvnYEFWTCzHM-20" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-19" value="编译器重排序" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="323" y="710" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-20" target="INB0uB4eUvnYEFWTCzHM-21" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-27" value="处理器重排序" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.603;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="1" source="INB0uB4eUvnYEFWTCzHM-20" target="INB0uB4eUvnYEFWTCzHM-21" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-20" value="指令级并行重排序" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="483" y="710" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-21" target="INB0uB4eUvnYEFWTCzHM-22" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-21" value="内存系统重排序" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="643" y="710" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-22" value="最终执行的指令序列" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="803" y="710" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-42" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-28" target="INB0uB4eUvnYEFWTCzHM-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="223" y="580"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-28" value="处理器缓存" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="163" y="455" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-29" value="避免由于处理器停顿导致写入数据延迟" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="383" y="430" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-30" value="批处理的方式刷新缓存，以及合并写缓存区中的同一内存地址的多次写，减少对内存总线的占用" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="383" y="480" width="520" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-31" value="每个处理器上的写缓存区，仅对他所在的处理器可见" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="386" y="535" width="310" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-32" value="对内存操作的执行顺序产生影响" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="386" y="585" width="310" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-36" value="好处" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-28" target="INB0uB4eUvnYEFWTCzHM-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="313" y="479" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="363" y="450" width="20" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="363" y="555" width="20" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-59" target="INB0uB4eUvnYEFWTCzHM-61" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-59" value="happens-before" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="163" y="860" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-60" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;程序顺序规则&lt;/td&gt;&lt;td align=&quot;center&quot; style=&quot;text-align: left&quot;&gt;一个线程中的每个操作happens-before于该线程中的每一个后续操作&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;监视器锁规则&lt;/td&gt;&lt;td align=&quot;center&quot; style=&quot;text-align: left&quot;&gt;对一个监视器的解锁happens-before于随后对该监视器的加锁&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;volatile规则&lt;br&gt;&lt;/td&gt;&lt;td&gt;对一个volatile域的写，happens-before于任意后续对volatile的读&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&amp;nbsp;传递性&lt;/td&gt;&lt;td align=&quot;center&quot; style=&quot;text-align: left&quot;&gt;A happens-before&amp;nbsp;B，B happens-before&amp;nbsp;C，那么A happens-before&amp;nbsp;C&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="616" y="810" width="487" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-61" target="INB0uB4eUvnYEFWTCzHM-60" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-61" value="&lt;b&gt;两个操作具有happens-before关系，并不意味着前一个操作必须在后一个操作之前执行。仅要求前一个操作的结果对后一个可见，且前一个操作安顺序排在后一个之前&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 0px ; white-space: nowrap&quot;&gt;及%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%AF%B9%E5%86%85%E5%AD%98%E6%93%8D%E4%BD%9C%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F%E4%BA%A7%E7%94%9F%E5%BD%B1%E5%93%8D%22%20style%3D%22shape%3Dext%3Bdouble%3D1%3Brounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22583%22%20y%3D%22690%22%20width%3D%22310%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="303" y="840" width="250" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-62" target="INB0uB4eUvnYEFWTCzHM-66" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-62" value="数据依赖性" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="163" y="1070" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-63" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;写后读&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;a = 1;&lt;br&gt;b = a;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;写后写&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;a = 1;&lt;br&gt;a = 2;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;读后写&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;b = a;&lt;br&gt;b = 1;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;rounded=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="616" y="1020" width="180" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-64" target="INB0uB4eUvnYEFWTCzHM-63" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-64" value="&lt;span style=&quot;font-weight: normal&quot;&gt;前边每两个操作顺序交换，则执行结果发生改变&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="863" y="1027.5" width="83" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-66" target="INB0uB4eUvnYEFWTCzHM-63" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-66" value="&lt;b&gt;这里所说的数据依赖性仅针对单个处理器中执行的指令序列和单线程中执行的操作，不同处理器之间和不同线程之间的数据依赖性不被编译器和处理器考虑&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="303" y="1050" width="250" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-73" target="INB0uB4eUvnYEFWTCzHM-95" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-73" value="as-if-serial" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="163" y="1230" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-74" value="double pi = 3.14;//A&lt;br&gt;dourble r = 1.0;//B&lt;br&gt;dourble area = pi * r * r;//C" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="616" y="1220" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-76" value="&lt;b&gt;A&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="793" y="1215" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-79" value="&lt;b&gt;B&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="793" y="1255" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-94" value="编译器、处理器可能重排序为" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-80" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1106" y="1250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-80" value="&lt;b&gt;C&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="886" y="1235" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-82" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-76" target="INB0uB4eUvnYEFWTCzHM-80" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="846" y="1380" as="sourcePoint"/>
+            <mxPoint x="896" y="1330" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-83" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-79" target="INB0uB4eUvnYEFWTCzHM-80" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="828.6066017177982" y="1235.6066017177982" as="sourcePoint"/>
+            <mxPoint x="879" y="1260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-84" value="&lt;b&gt;A&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1104" y="1212.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-85" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-84" target="INB0uB4eUvnYEFWTCzHM-86" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1157" y="1377.5" as="sourcePoint"/>
+            <mxPoint x="1197" y="1247.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-86" value="&lt;b&gt;B&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1184" y="1212.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-87" value="&lt;b&gt;C&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1264" y="1212.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-88" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-86" target="INB0uB4eUvnYEFWTCzHM-87" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1144" y="1237.5" as="sourcePoint"/>
+            <mxPoint x="1194" y="1237.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-89" value="&lt;b&gt;B&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1104" y="1257.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-90" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-89" target="INB0uB4eUvnYEFWTCzHM-91" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1157" y="1422.5" as="sourcePoint"/>
+            <mxPoint x="1197" y="1292.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-91" value="&lt;b&gt;A&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1184" y="1257.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-92" value="&lt;b&gt;C&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1264" y="1257.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-93" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-91" target="INB0uB4eUvnYEFWTCzHM-92" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1144" y="1282.5" as="sourcePoint"/>
+            <mxPoint x="1194" y="1282.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-95" target="INB0uB4eUvnYEFWTCzHM-74" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-95" value="&lt;b&gt;as-if-serial语义使单线程时无需担心重排序干扰，也无需担心内存可见性&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="303" y="1210" width="250" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-96" target="INB0uB4eUvnYEFWTCzHM-97" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-96" value="程序顺序规则" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="163" y="1380" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-97" target="INB0uB4eUvnYEFWTCzHM-98" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-97" value="A happens-before B;&lt;br&gt;B happens-before C;&lt;br&gt;A happens-before C;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="313" y="1370" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-98" value="&lt;b&gt;1、A happens-before C是通过传递性推导出来的&lt;br&gt;2、如果A&amp;nbsp;happens-before&amp;nbsp;B，并不一定要求A执行在前，B执行在后，只是要求A的执行结果对B可见。但是由于A的操作并不需要对B可见，所以可能会先执行B，然后执行A。JVM认为这种排序并不非法。&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 0px ; white-space: nowrap&quot;&gt;2、%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bb%26gt%3Bas-if-serial%E8%AF%AD%E4%B9%89%E4%BD%BF%E5%8D%95%E7%BA%BF%E7%A8%8B%E6%97%B6%E6%97%A0%E9%9C%80%E6%8B%85%E5%BF%83%E9%87%8D%E6%8E%92%E5%BA%8F%E5%B9%B2%E6%89%B0%EF%BC%8C%E4%B9%9F%E6%97%A0%E9%9C%80%E6%8B%85%E5%BF%83%E5%86%85%E5%AD%98%E5%8F%AF%E8%A7%81%E6%80%A7%26lt%3B%2Fb%26gt%3B%22%20style%3D%22shape%3Dext%3Bdouble%3D1%3Brounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dcenter%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22590%22%20y%3D%221385%22%20width%3D%22250%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="527.5" y="1350" width="357" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="INB0uB4eUvnYEFWTCzHM-104" target="INB0uB4eUvnYEFWTCzHM-105" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-104" value="内存屏障" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="163" y="1560" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-105" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;屏障类型&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;指令示例&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;说明&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;LoadLoad Barriers&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Load1;LoadLoad;Load2&lt;br&gt;&lt;/td&gt;&lt;td align=&quot;center&quot; style=&quot;text-align: left&quot;&gt;确保Load1数据的装载，之前于Load2及后续所有指令的装载&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;StoreStore Barriers&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Store1;StoreStore;Store2&lt;br&gt;&lt;/td&gt;&lt;td align=&quot;center&quot; style=&quot;text-align: left&quot;&gt;确保Store1数据对其他处理器可见，之前于Store2及后续所有储存指令的存储&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;LoadStore Barriers&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Load1;LoadStore;Store2&lt;br&gt;&lt;/td&gt;&lt;td&gt;确保Load1数据的装载，之前于Store2及所有后续的存储指令刷新到内存&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;b&gt;StoreLoad&amp;nbsp;Barriers&lt;br&gt;&lt;/b&gt;&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Store1;StoreLoad;Load2&lt;br&gt;&lt;/td&gt;&lt;td&gt;确保Store1数据对其他处理器可见，之前于Load2及后续所有储存指令的存储，&lt;br&gt;StoreLoad Barriers会使该屏障之前的所有内存访问指令完成后，才能执行该屏障之后的内存访问指令&lt;br&gt;具备其他三个屏障的效果，开销很昂贵，需要当前处理器把写缓存区中的数据全部刷新到内存中&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="276" y="1510" width="807" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="INB0uB4eUvnYEFWTCzHM-107" target="INB0uB4eUvnYEFWTCzHM-108" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-107" value="并发情况下，重排序导致问题" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1898" width="163" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="INB0uB4eUvnYEFWTCzHM-108" target="INB0uB4eUvnYEFWTCzHM-112" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-108" value="class ReorderExample{&lt;br&gt;&lt;br&gt;&amp;nbsp;int a = 0;&lt;br&gt;&amp;nbsp;boolean flag = false;&lt;br&gt;&lt;br&gt;&amp;nbsp;public void writer(){&lt;br&gt;&amp;nbsp; a = 1; //1&lt;br&gt;&amp;nbsp; flag = true;//2&lt;br&gt;&amp;nbsp;}&lt;br&gt;&lt;br&gt;&amp;nbsp;public void reader(){&lt;br&gt;&amp;nbsp; if(flag){//3&lt;br&gt;&amp;nbsp; &amp;nbsp; int i = a * a;//4&lt;br&gt;&amp;nbsp; }&lt;br&gt;&amp;nbsp;}&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=left;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="1793" width="164" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-112" value="&lt;span style=&quot;text-align: center ; white-space: normal&quot;&gt;操作1和2没有数据依赖，3和4也没有数据依赖，所以可能产生重排序&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="531" y="1888" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-113" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="769" y="1837" as="sourcePoint"/>
+            <mxPoint x="1281" y="1837" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-114" value="时间" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="INB0uB4eUvnYEFWTCzHM-113" vertex="1" connectable="0">
+          <mxGeometry x="0.0838" y="1" relative="1" as="geometry">
+            <mxPoint x="198.5" y="1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-115" value="flag =&amp;nbsp;true" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="858" y="1847" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-116" value="if(flag)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="951" y="1793" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-117" value="&lt;b&gt;线程A&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="769" y="1852" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-118" value="&lt;b&gt;线程B&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="770" y="1803" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-119" value="int i = a*a" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="1055" y="1793" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-120" value="a = 1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1153" y="1847" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-122" value="此时变量a还没有被线程A写入，语义被破坏" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;strokeColor=#c0c0c0;gradientColor=none;fontColor=#FF0000;align=center;rotation=0;position2=0;" parent="1" vertex="1">
+          <mxGeometry x="1126" y="1730" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-123" value="&lt;font color=&quot;#000000&quot;&gt;重排序&lt;/font&gt;" style="endArrow=none;dashed=1;html=1;fontColor=#FF0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="INB0uB4eUvnYEFWTCzHM-115" target="INB0uB4eUvnYEFWTCzHM-120" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="334" y="2097" as="sourcePoint"/>
+            <mxPoint x="384" y="2047" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-124" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="769" y="2012" as="sourcePoint"/>
+            <mxPoint x="1451.9412339154412" y="2012" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-125" value="时间" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="INB0uB4eUvnYEFWTCzHM-124" vertex="1" connectable="0">
+          <mxGeometry x="0.0838" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-126" value="flag =&amp;nbsp;true" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1051.5" y="2027" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-127" value="temp = a*a" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="855.5" y="1967" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-128" value="&lt;b&gt;线程A&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="766.5" y="2032" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-129" value="&lt;b&gt;线程B&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="766.5" y="1972" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-130" value="if(flag)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1150.5" y="1967" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-131" value="a = 1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="947.5" y="2027" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-132" value="3和4存在控制依赖有关系，控制依赖会影响并行执行度，编译器和处理器会猜测执行，处理器执行线程B时可以提前读取并计算a*a，将结果临时保存到&amp;nbsp;一个名为重排序缓存的硬件缓存中，当接下来操作3的条件为真时，把计算结果写入变量i中。这样语义就被破坏&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;strokeColor=#c0c0c0;gradientColor=none;fontColor=#FF0000;align=center;rotation=0;position2=0;" parent="1" vertex="1">
+          <mxGeometry x="1326" y="1877" width="366" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="INB0uB4eUvnYEFWTCzHM-134" value="int i = temp" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#c0c0c0;gradientColor=none;align=center;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="1254.5" y="1967" width="71" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-5" value="保证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wCdLnSLt7X3HPlVgGk0f-1" target="wCdLnSLt7X3HPlVgGk0f-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="267.5" y="2230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-1" value="数据竞争" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="115.5" y="2210" width="72" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-12" value="正确使用同步原语&lt;br&gt;不限于此" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wCdLnSLt7X3HPlVgGk0f-2" target="wCdLnSLt7X3HPlVgGk0f-8" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wCdLnSLt7X3HPlVgGk0f-2" target="wCdLnSLt7X3HPlVgGk0f-15" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-2" value="顺序一致性" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="368" y="2210" width="72" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-18" value="两大特性" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wCdLnSLt7X3HPlVgGk0f-15" target="wCdLnSLt7X3HPlVgGk0f-17" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-15" value="顺序一致性模型&lt;br&gt;（理想化的模型）" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="344" y="2330" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-17" value="1、一个线程中的所有操作必须按照程序的顺序来执行&lt;br&gt;2、（不管程序是否同步）所有线程都只能看到一个单一的操作执行顺序，每个操作必须原子执行且立刻对所有线程可见" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="591" y="2330" width="660" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-8" value="synchronized&lt;br&gt;volotile&lt;br&gt;final" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="591" y="2205" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-3" value="1、在一个线程中写一个变量&lt;br&gt;2、在另一个线程中读同一个变量&lt;br&gt;3、而且读和写没有通过同步来排序" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.07;" parent="1" vertex="1">
+          <mxGeometry x="140" y="2130" width="202" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-7" value="如果程序正确同步，程序的执行将具有顺序一致性，即程序的执行结果与该程序在顺序一致性内存模型中执行结果相同" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.07;" parent="1" vertex="1">
+          <mxGeometry x="397" y="2130" width="223" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wCdLnSLt7X3HPlVgGk0f-19" target="wCdLnSLt7X3HPlVgGk0f-17" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-24" value="同时" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wCdLnSLt7X3HPlVgGk0f-19" target="wCdLnSLt7X3HPlVgGk0f-23" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-19" value="JMM不能对这两个特性做出保证" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1294" y="2330" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="wCdLnSLt7X3HPlVgGk0f-23" value="JDK5之后，64位long/double型变量的写操作拆分成两个32位的写操作来执行，任意读操作必须具有原子性" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="591" y="2280" width="659" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
