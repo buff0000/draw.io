@@ -1,1 +1,1051 @@
-<mxfile host="www.draw.io" modified="2020-01-06T16:24:06.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" version="12.4.8" etag="1kS5-rWGLJtXEH_qcaA-" type="github"><diagram id="qbF92hfEgeoPUX4xhK2h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-06T16:25:18.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" etag="KoFX8bZo3zXIo6BwOgAX" version="12.4.8" type="github">
+  <diagram id="qbF92hfEgeoPUX4xhK2h" name="Page-1">
+    <mxGraphModel dx="581" dy="-2782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-1" value="连续加法器" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;fontSize=23;horizontal=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="847" y="4650" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-2" value="" style="group;fontSize=19;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1040" y="4560" width="460" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-3" value="" style="group;fontSize=19;" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-2">
+          <mxGeometry width="459.99999999999994" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-4" value="" style="group;fontSize=19;" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-3">
+          <mxGeometry width="459.99999999999994" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=19;align=center;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="459.99999999999994" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4" source="AtQHAulMX-eyT-m-HNgf-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.88888888888886" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4" source="AtQHAulMX-eyT-m-HNgf-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51.11111111111111" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-8" value="&lt;b style=&quot;font-size: 19px;&quot;&gt;8位加法器&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=19;align=center;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry x="76.66666666666666" y="108" width="306.66666666666663" height="78.66666666666666" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-9" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.44444444444444" y="106.66666666666666" as="sourcePoint"/>
+            <mxPoint x="89.44444444444444" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-10" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="102.22222222222221" y="106.66666666666666" as="sourcePoint"/>
+            <mxPoint x="102.22222222222221" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-11" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="114.99999999999999" y="106.66666666666666" as="sourcePoint"/>
+            <mxPoint x="114.99999999999999" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-12" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="127.77777777777777" y="106.66666666666666" as="sourcePoint"/>
+            <mxPoint x="127.77777777777777" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-13" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140.55555555555554" y="106.66666666666666" as="sourcePoint"/>
+            <mxPoint x="140.55555555555554" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-14" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="153.33333333333331" y="106.66666666666666" as="sourcePoint"/>
+            <mxPoint x="153.33333333333331" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-15" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="166.1111111111111" y="106.66666666666666" as="sourcePoint"/>
+            <mxPoint x="166.1111111111111" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-16" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="178.88888888888889" y="106.66666666666666" as="sourcePoint"/>
+            <mxPoint x="178.88888888888889" y="53.33333333333333" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-17" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="281.1111111111111" y="108" as="sourcePoint"/>
+            <mxPoint x="281.1111111111111" y="54.666666666666664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-18" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="293.88888888888886" y="108" as="sourcePoint"/>
+            <mxPoint x="293.88888888888886" y="54.666666666666664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-19" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="306.66666666666663" y="108" as="sourcePoint"/>
+            <mxPoint x="306.66666666666663" y="54.666666666666664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-20" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.4444444444444" y="108" as="sourcePoint"/>
+            <mxPoint x="319.4444444444444" y="54.666666666666664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-21" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332.2222222222222" y="108" as="sourcePoint"/>
+            <mxPoint x="332.2222222222222" y="54.666666666666664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-22" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="108" as="sourcePoint"/>
+            <mxPoint x="345" y="54.666666666666664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-23" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.77777777777777" y="108" as="sourcePoint"/>
+            <mxPoint x="357.77777777777777" y="54.666666666666664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-24" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370.55555555555554" y="108" as="sourcePoint"/>
+            <mxPoint x="370.55555555555554" y="54.666666666666664" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-25" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="217.2222222222222" y="239.33333333333331" as="sourcePoint"/>
+            <mxPoint x="217.2222222222222" y="186" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-26" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242.77777777777777" y="239.33333333333331" as="sourcePoint"/>
+            <mxPoint x="242.77777777777777" y="186" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-27" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="268.3333333333333" y="240" as="sourcePoint"/>
+            <mxPoint x="268.3333333333333" y="186.66666666666666" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-28" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="293.88888888888886" y="240" as="sourcePoint"/>
+            <mxPoint x="293.88888888888886" y="186.66666666666666" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-29" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="166.1111111111111" y="240" as="sourcePoint"/>
+            <mxPoint x="166.1111111111111" y="186.66666666666666" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-30" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="191.66666666666666" y="240" as="sourcePoint"/>
+            <mxPoint x="191.66666666666666" y="186.66666666666666" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-31" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140.55555555555554" y="240" as="sourcePoint"/>
+            <mxPoint x="140.55555555555554" y="186.66666666666666" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-32" value="" style="endArrow=none;html=1;fontSize=19;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.4444444444444" y="240" as="sourcePoint"/>
+            <mxPoint x="319.4444444444444" y="186.66666666666666" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-33" value="加数1" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry x="92.22222222222221" y="17.666666666666664" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-34" value="加数2" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry x="296.66666666666663" y="17.666666666666664" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-35" value="进位值&lt;br style=&quot;font-size: 19px;&quot;&gt;默认为0" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry x="361.9444444444444" y="6" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-36" value="计算结果" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry x="176.66666666666666" y="234.33333333333331" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-37" value="第9位数" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=19;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-4">
+          <mxGeometry x="4.166666666666664" y="234.33333333333331" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-38" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="4720" as="sourcePoint"/>
+            <mxPoint x="1570" y="4720" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1624" y="4535" width="420" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-40" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-39">
+          <mxGeometry x="160" width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-41" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-40">
+          <mxGeometry width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-42" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint x="140" y="66" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-43" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="66" as="sourcePoint"/>
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-44" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint y="330" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-45" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.125" y="198" as="sourcePoint"/>
+            <mxPoint x="69.37874999999997" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-46" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90.75" as="sourcePoint"/>
+            <mxPoint x="70" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-47" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90.75" as="sourcePoint"/>
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-48" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1.3125" y="330" as="sourcePoint"/>
+            <mxPoint x="1.3125" y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-49" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="198" as="sourcePoint"/>
+            <mxPoint y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-50" value="&lt;font style=&quot;font-size: 36px&quot;&gt;加&lt;br&gt;法&lt;br&gt;器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-41">
+          <mxGeometry x="80" y="110" width="50" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-51" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-39">
+          <mxGeometry x="80" y="5" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-52" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-51">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-53" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-51">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-54" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-39">
+          <mxGeometry x="80" y="245" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-55" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-54">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-56" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-54">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-57" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-39">
+          <mxGeometry x="300" y="115" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-58" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-57">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-59" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-57">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-60" value="加数1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-39">
+          <mxGeometry y="37" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-61" value="加数2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-39">
+          <mxGeometry x="6" y="288" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-62" value="和" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-39">
+          <mxGeometry x="390" y="140.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1584" y="4480" width="520" height="440" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-64" value="用5位进行演示原理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1904" y="4880" width="180" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-65" value="能否让加法器自己记住中间结果，并自动参与和下一个加数的运算结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2193" y="4610" width="327" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2910" y="4550" width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-67" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-66">
+          <mxGeometry width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-68" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint x="140" y="66" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-69" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="66" as="sourcePoint"/>
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-70" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint y="330" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-71" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.125" y="198" as="sourcePoint"/>
+            <mxPoint x="69.37874999999997" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-72" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90.75" as="sourcePoint"/>
+            <mxPoint x="70" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-73" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90.75" as="sourcePoint"/>
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-74" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1.3125" y="330" as="sourcePoint"/>
+            <mxPoint x="1.3125" y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-75" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="198" as="sourcePoint"/>
+            <mxPoint y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-76" value="&lt;font style=&quot;font-size: 36px&quot;&gt;加&lt;br&gt;法&lt;br&gt;器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-67">
+          <mxGeometry x="80" y="110" width="50" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-77" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2700" y="4565" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-78" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-77">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-79" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-77">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-80" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3050" y="4665" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-81" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-80">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-82" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-80">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-83" value="加数1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2612.5" y="4587" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-84" value="和" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="4690.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-85" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2920" y="4650.75" as="sourcePoint"/>
+            <mxPoint x="2920" y="4560" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-86" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2840" y="4565" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-87" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-86">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-88" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-86">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2882" y="4490" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="2810" y="4490"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-90" value="R&lt;br&gt;A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2781" y="4540" width="59" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-91" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbutton_make;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2878.75" y="4440" width="75" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-92" value="Kra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2893.75" y="4400" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-93" value="RA寄存器&lt;br&gt;1、数据进入数据端&lt;br&gt;2、按下RA寄存器的开关，数据输出到存储端&lt;br&gt;3、同时被加法器取走并进行加法运算" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2642.5" y="4920" width="530" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-94" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3897.5" y="4550" width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-95" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-94">
+          <mxGeometry width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-96" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint x="140" y="66" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-97" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="66" as="sourcePoint"/>
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-98" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint y="330" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-99" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.125" y="198" as="sourcePoint"/>
+            <mxPoint x="69.37874999999997" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-100" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90.75" as="sourcePoint"/>
+            <mxPoint x="70" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-101" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90.75" as="sourcePoint"/>
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-102" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1.3125" y="330" as="sourcePoint"/>
+            <mxPoint x="1.3125" y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-103" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="198" as="sourcePoint"/>
+            <mxPoint y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-104" value="&lt;font style=&quot;font-size: 36px&quot;&gt;加&lt;br&gt;法&lt;br&gt;器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-95">
+          <mxGeometry x="80" y="110" width="50" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-105" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3500" y="4565" width="265.5" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-106" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-105">
+          <mxGeometry x="6.8076923076923075" width="258.6923076923077" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-107" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-105">
+          <mxGeometry y="80" width="265.5" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-108" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3817.5" y="4795" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-109" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-108">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-110" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-108">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-111" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="4037.5" y="4665" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-112" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-111">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-113" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-111">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-114" value="加数1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3415" y="4580" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-115" value="和" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4127.5" y="4690.5" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-116" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3827.5" y="4565" width="72.5" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-117" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-116">
+          <mxGeometry x="1.858974358974359" width="70.64102564102565" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-118" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-116">
+          <mxGeometry y="80" width="72.5" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3867" y="4490" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="3797.5" y="4490"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-120" value="R&lt;br&gt;A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3768.5" y="4540" width="59" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-121" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbutton_make;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3866.25" y="4440" width="75" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-122" value="Kra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3881.25" y="4400" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.709;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-109" target="AtQHAulMX-eyT-m-HNgf-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3690" y="4795"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.632;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-109" target="AtQHAulMX-eyT-m-HNgf-106">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.538;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-109" target="AtQHAulMX-eyT-m-HNgf-106">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.438;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-109" target="AtQHAulMX-eyT-m-HNgf-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3620" y="4855"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.335;entryY=5.429;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-110" target="AtQHAulMX-eyT-m-HNgf-107">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-128" value="10+5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3418.62" y="4420" width="70" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-129" value="1、第一个加数10被输入，然后从两路传输&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;2、点下RA开关，数据进入存储端&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;3、加法器将两个加数10、10相加得到20&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;4、接着输入5，分两路传输&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;5、此时RA开关并不会被点击，所以不会输出到RA的存储端&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;6、下边的加数10被新来的5给覆盖掉&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;7、加法器将10和5相加得到15&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3389" y="4920" width="700" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-130" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="4922.5" y="4550" width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-131" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-130">
+          <mxGeometry width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-132" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint x="140" y="66" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-133" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="66" as="sourcePoint"/>
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-134" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint y="330" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-135" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.125" y="198" as="sourcePoint"/>
+            <mxPoint x="69.37874999999997" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-136" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90.75" as="sourcePoint"/>
+            <mxPoint x="70" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-137" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3" y="90.75" as="sourcePoint"/>
+            <mxPoint x="-3" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-138" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1.3125" y="330" as="sourcePoint"/>
+            <mxPoint x="1.3125" y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-139" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="198" as="sourcePoint"/>
+            <mxPoint y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-140" value="&lt;font style=&quot;font-size: 36px&quot;&gt;加&lt;br&gt;法&lt;br&gt;器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-131">
+          <mxGeometry x="80" y="110" width="50" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-141" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="4842.5" y="4795" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-142" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-141">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-143" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-141">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-144" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="5062.5" y="4665" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-145" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-144">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-146" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-144">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-147" value="加数1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4239" y="4580" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-148" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="4849.5" y="4565" width="70.5" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-149" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-148">
+          <mxGeometry x="1.8076923076923077" width="68.6923076923077" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-150" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-148">
+          <mxGeometry y="80" width="70.5" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-152">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4892" y="4490" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="4822.5" y="4490"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-152" value="R&lt;br&gt;A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4790.5" y="4540" width="59" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-153" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbutton_make;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4891.25" y="4440" width="75" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-154" value="Kra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4906.25" y="4400" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.709;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-142" target="AtQHAulMX-eyT-m-HNgf-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4715" y="4795"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.775;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-142" target="AtQHAulMX-eyT-m-HNgf-165">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.715;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-142" target="AtQHAulMX-eyT-m-HNgf-165">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4645" y="4855"/>
+            </Array>
+            <mxPoint x="4647" y="4630" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.611;entryY=6.857;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-143" target="AtQHAulMX-eyT-m-HNgf-166">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-145" target="AtQHAulMX-eyT-m-HNgf-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5140" y="4980"/>
+              <mxPoint x="4532" y="4980"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;entryX=0.316;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-145" target="AtQHAulMX-eyT-m-HNgf-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4500" y="5090" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="5160" y="4685"/>
+              <mxPoint x="5160" y="5000"/>
+              <mxPoint x="4496" y="5000"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;entryX=0.242;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-145" target="AtQHAulMX-eyT-m-HNgf-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4440" y="5030" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="5190" y="4705"/>
+              <mxPoint x="5190" y="5030"/>
+              <mxPoint x="4465" y="5030"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.179;entryY=1.09;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-145" target="AtQHAulMX-eyT-m-HNgf-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5220" y="4725"/>
+              <mxPoint x="5220" y="5060"/>
+              <mxPoint x="4437" y="5060"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;entryX=0.121;entryY=2.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AtQHAulMX-eyT-m-HNgf-166">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4400" y="5020" as="targetPoint"/>
+            <mxPoint x="5082" y="4745" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="5083" y="4745"/>
+              <mxPoint x="5253" y="4745"/>
+              <mxPoint x="5253" y="5091"/>
+              <mxPoint x="4412" y="5091"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-165" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4361.217948717948" y="4565" width="426.28205128205127" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-166" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4360" y="4645" width="427.5" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-167" value="1、存在闭环，加法器不断的将相加结果再次当作加数进行相加&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、加法器的输出结果与“总线上的数据发生冲突”&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4443.62" y="5125" width="730" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-168" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=26;fontColor=#000000;strokeColor=#d79b00;fillColor=#ffe6cc;endWidth=87.14285714285715;endSize=4.428571428571429;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4449.58" y="4730" as="sourcePoint"/>
+            <mxPoint x="4449.58" y="4650" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="4449.29" y="4700"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-169" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=26;fontColor=#000000;strokeColor=#d79b00;fillColor=#ffe6cc;endWidth=87.14285714285715;endSize=4.428571428571429;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4349.119999999999" y="4610" as="sourcePoint"/>
+            <mxPoint x="4421.119999999999" y="4610" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="4349.12" y="4610"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-170" value="" style="endArrow=none;html=1;strokeColor=#FFA98A;fontSize=26;fontColor=#000000;dashed=1;strokeWidth=9;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4519.999999999998" y="4660" as="sourcePoint"/>
+            <mxPoint x="4519.999999999998" y="4660" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="4520" y="4620"/>
+              <mxPoint x="4700" y="4620"/>
+              <mxPoint x="4700" y="4810"/>
+              <mxPoint x="4930" y="4810"/>
+              <mxPoint x="5050" y="4730"/>
+              <mxPoint x="5160" y="4730"/>
+              <mxPoint x="5150" y="4990"/>
+              <mxPoint x="4520" y="4990"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-171" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6578.38" y="4550" width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-172" value="" style="group" vertex="1" connectable="0" parent="AtQHAulMX-eyT-m-HNgf-171">
+          <mxGeometry width="140" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-173" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint x="140" y="66" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-174" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="66" as="sourcePoint"/>
+            <mxPoint as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-175" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="264" as="sourcePoint"/>
+            <mxPoint y="330" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-176" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.125" y="198" as="sourcePoint"/>
+            <mxPoint x="69.37874999999997" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-177" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="90.75" as="sourcePoint"/>
+            <mxPoint x="70" y="132" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-178" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3" y="90.75" as="sourcePoint"/>
+            <mxPoint x="-3" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-179" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1.3125" y="330" as="sourcePoint"/>
+            <mxPoint x="1.3125" y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-180" value="" style="endArrow=none;html=1;fontSize=19;fontColor=#000000;" edge="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="198" as="sourcePoint"/>
+            <mxPoint y="239.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-181" value="&lt;font style=&quot;font-size: 36px&quot;&gt;加&lt;br&gt;法&lt;br&gt;器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-172">
+          <mxGeometry x="80" y="110" width="50" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-182" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6498.38" y="4795" width="78" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-183" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-182">
+          <mxGeometry x="2" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-184" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-182">
+          <mxGeometry y="80" width="78" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-185" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="5887.6" y="4569" width="70.5" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-186" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-185">
+          <mxGeometry x="1.8076923076923077" width="68.6923076923077" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-187" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-185">
+          <mxGeometry y="80" width="70.5" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-189">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6547" y="4490" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="6478.38" y="4490"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-189" value="R&lt;br&gt;A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6446.38" y="4540" width="59" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-190" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbutton_make;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6547.13" y="4440" width="75" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-191" value="Kra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6562.13" y="4400" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.709;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-183" target="AtQHAulMX-eyT-m-HNgf-202">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6370.88" y="4795"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.775;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-183" target="AtQHAulMX-eyT-m-HNgf-202">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.715;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-183" target="AtQHAulMX-eyT-m-HNgf-202">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-183">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6300.88" y="4855"/>
+            </Array>
+            <mxPoint x="6302" y="4630" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.611;entryY=6.857;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" source="AtQHAulMX-eyT-m-HNgf-184" target="AtQHAulMX-eyT-m-HNgf-203">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" target="AtQHAulMX-eyT-m-HNgf-202">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7160" y="4665"/>
+              <mxPoint x="7160" y="4920"/>
+              <mxPoint x="6187" y="4920"/>
+            </Array>
+            <mxPoint x="7042" y="4665" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;entryX=0.316;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AtQHAulMX-eyT-m-HNgf-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6155.88" y="5090" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="7190" y="4685"/>
+              <mxPoint x="7190" y="4950"/>
+              <mxPoint x="6152" y="4950"/>
+            </Array>
+            <mxPoint x="7042" y="4685" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;entryX=0.242;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AtQHAulMX-eyT-m-HNgf-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6095.88" y="5030" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="7220" y="4705"/>
+              <mxPoint x="7220" y="4980"/>
+              <mxPoint x="6120" y="4980"/>
+            </Array>
+            <mxPoint x="7042" y="4705" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.179;entryY=1.09;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1" target="AtQHAulMX-eyT-m-HNgf-202">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7250" y="4725"/>
+              <mxPoint x="7250" y="5010"/>
+              <mxPoint x="6093" y="5010"/>
+            </Array>
+            <mxPoint x="7042" y="4725" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;entryX=0.121;entryY=2.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AtQHAulMX-eyT-m-HNgf-203">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6055.88" y="5020" as="targetPoint"/>
+            <mxPoint x="7042" y="4745" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="7280" y="4745"/>
+              <mxPoint x="7280" y="5040"/>
+              <mxPoint x="6067" y="5040"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-202" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6017.097948717948" y="4565" width="426.28205128205127" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-203" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6015.88" y="4645" width="427.5" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-204" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6870" y="4670" width="110" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-205" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-204">
+          <mxGeometry x="2.820512820512821" width="107.17948717948718" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-206" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-204">
+          <mxGeometry y="80" width="110.00000000000001" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-207" value="R&lt;br&gt;A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6810" y="4639.5" width="59.5" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-208" value="G&lt;br&gt;B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6980.25" y="4639" width="59.5" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-209" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6730" y="4674" width="90" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-210" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-209">
+          <mxGeometry x="2.307692307692308" width="87.6923076923077" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-211" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-209">
+          <mxGeometry y="80" width="90" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6912" y="4590" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="6839.31" y="4589.29"/>
+            </Array>
+            <mxPoint x="6837" y="4640" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-213" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbutton_make;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6908.06" y="4539.29" width="75" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-214" value="Kra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6923.06" y="4499.29" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7082" y="4585" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="7012.38" y="4585.93"/>
+            </Array>
+            <mxPoint x="7012" y="4635" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-216" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbutton_make;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="7081.13" y="4535.93" width="75" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-217" value="Kgb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="7096.13" y="4495.93" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-218" value="G&lt;br&gt;A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="5958.1" y="4537" width="59" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=26;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6062" y="4490" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="5990.25" y="4489.58"/>
+            </Array>
+            <mxPoint x="5987" y="4540" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-220" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.pushbutton_make;fillColor=none;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6059" y="4439.58" width="75" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-221" value="Kga" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6074" y="4399.58" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-222" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6515.38" y="4575" width="70.5" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-223" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-222">
+          <mxGeometry x="1.8076923076923077" width="68.6923076923077" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-224" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.bus_width;pointerEvents=1;fillColor=none;fontSize=19;fontColor=#000000;" vertex="1" parent="AtQHAulMX-eyT-m-HNgf-222">
+          <mxGeometry y="80" width="70.5" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-225" value="加数1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="5807.5" y="4585" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="AtQHAulMX-eyT-m-HNgf-226" value="1、GA\GB是两组继电器，每组继电器有5个开关，每个开关控制一条线路的开关&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、GA,GB只要不同时按下就不会出现数据冲突&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="5610" y="5118" width="930" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
