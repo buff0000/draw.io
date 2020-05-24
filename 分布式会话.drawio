@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-05-24T21:49:51.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" version="13.1.3" etag="JfsCCQI-KTXrQCa1G4s5" type="github"><diagram id="pc0hwXwxYjW5At6fqMWj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-24T22:30:48.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" etag="GziO2M_aMr3UGBOrUQ-x" version="13.1.3" type="github">
+  <diagram id="pc0hwXwxYjW5At6fqMWj" name="Page-1">
+    <mxGraphModel dx="554" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-1" value="引入JAR包&lt;br style=&quot;font-size: 16px;&quot;&gt;spring-boot-starter_data-redis&lt;br style=&quot;font-size: 16px;&quot;&gt;spring-session-data-redis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-3" value="@Component&lt;br&gt;@EnableRedisHttpSession(maxInactiveIntervalInSeconds=36-00)&lt;br&gt;public class RedisConfig" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-4" value="application.yam&lt;br&gt;配置redis访问连接&lt;br&gt;配置jedis连接池" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-5" value="基于cookie传输sessionId：java tomcat容器session&lt;br&gt;基于token传输类似sessionId：java代码session" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="410" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
