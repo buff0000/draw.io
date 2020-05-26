@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-25T22:25:13.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" etag="MdlnOGlI_czq8dO3k4S-" version="13.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-26T23:14:16.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" etag="ErOb2ruAQp6sFIEOGoQl" version="13.1.3" type="github">
   <diagram id="pc0hwXwxYjW5At6fqMWj" name="Page-1">
-    <mxGraphModel dx="554" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,45 @@
         </mxCell>
         <mxCell id="T5iWA2etSwhb_KGv9-Ih-10" value="缓存数据设置过期时间就是为了简单应对数据更新，不然处理数据更新问题很复杂" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="600" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-12" value="本地热点缓存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-13" value="热点数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-14" value="脏读不敏感" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-15" value="内存可控" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-16" value="Guava cache" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-17" value="1、可控制大小 和超时时间&lt;br&gt;2、可配置lru策略&lt;br&gt;3、线程安全" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="810" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-18" value="Openresty实践" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-19" value="1、openresty hello world&lt;br&gt;2、shared dic:共享内存字典，所有worker进程可见，lru淘汰&lt;br&gt;3、openresty redis支持" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-20" value="HTTP请求头 cache control" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1080" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-21" value="1、private 客户端可以缓存&lt;br&gt;2、public:客户端和代理服务都 可以缓存&lt;br&gt;3、max-age=xxx缓存内容将在xxx秒后失效&lt;br&gt;4、no-cache强制向服务端再验证一次&lt;br&gt;5、no-store不缓存请求的任务返回内容" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1140" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-24" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="T5iWA2etSwhb_KGv9-Ih-21">
+          <mxGeometry x="157" y="76" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-22" value="有效性判断" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1320" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5iWA2etSwhb_KGv9-Ih-23" value="ETag:资源唯一标识&lt;br&gt;If-None-Match:客户端发送的匹配Etag标识符&lt;br&gt;Last-modified：资源最后被修改的时间&lt;br&gt;If-Modified-Since:客户端发送的匹配资源最后修改时间的标识 符" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1380" width="460" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
