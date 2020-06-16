@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-06-15T10:43:19.940Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" etag="EdWjD0IGj-OW8JUPu1T9" version="13.1.3" type="github"><diagram id="OjFz2mmCENQX1XDGvH8Z" name="Page-1">xZbfk5owEMf/mjzagaAIj/6IrVOd64xOez7dZGQPcgOEhuWE/vUNEkTGO8/OtPXFyX52N2Q3+wWJM0vKz4pn0VoGEBNqBSVx5oTSkT/SvzWoGjCmTgNCJYIG2R3YiF9goGVoIQLIe4EoZYwi68O9TFPYY49xpeShH/Ys4/5TMx7CBdjseXxJf4gAo4Z6dNzxLyDCqH2y7fqNJ+FtsKkkj3ggD2fIYcSZKSmxWSXlDOK6d21fmrzFO97TwRSkeEvC9ucLxKL4roLlfDLYPYRfV7uB2eWVx4UpmDCPTBfEHxI2Iv6U+CyvcoTkCUUCTzJDUw1WbYsg0B0zplQYyVCmPGYdnSpZpAHU57C01cWspMw0tDV8AcTKXD8vUGoUYRIbL5QCH016vd7V60/jkTHn5ZlvXrVGiqp6bHeojfO02u7yjlab+CxTNEdxtdkUXFf5bucNymWh9nCl3dRMMFch4JW44Wk+tK5AJqCPp/MUxBzFa/8c3Ex4eIrrhkAvzBz8wUzQi5lYrzabwcO37cXV9y/2EAmETcaPLTjo10H/Es22oBDK6528rLxNcFwjPPM6Oanr0InTtgyLzoTpWv+oW86bCposyHRMmEumNvHotu4d02hGPI+wYb2YWIT5xLOIT5drtmzd/j3lZffkRW+Ul9WXF/1IXn9RT8Mb9UTvqafhW3qa3F9L1n/Ukja7L93Rd/Z3wWG/AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-16T01:37:22.762Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" etag="dfCIAr0ck-mcB_o8e1qN" version="13.1.3" type="github">
+  <diagram id="OjFz2mmCENQX1XDGvH8Z" name="Page-1">
+    <mxGraphModel dx="595" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TqjeliuVrdIDA-YOgKLY-1" value="返回system_time_otp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="TqjeliuVrdIDA-YOgKLY-2" target="TqjeliuVrdIDA-YOgKLY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TqjeliuVrdIDA-YOgKLY-2" value="MLSS-OTP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TqjeliuVrdIDA-YOgKLY-3" value="请求TOTP（传递IMEI）" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="TqjeliuVrdIDA-YOgKLY-4" target="TqjeliuVrdIDA-YOgKLY-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TqjeliuVrdIDA-YOgKLY-4" value="MLSA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
