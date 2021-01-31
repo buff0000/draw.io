@@ -1,1 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T15:18:34.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" version="14.0.0" etag="kwYVIlyXOa3xhwDxUKAB" type="github"><diagram id="FAf7YjHN-YXLqCkr2gj-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-31T05:34:56.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36" etag="v3Mh1d7l4PusJcuPTPf3" version="14.0.0" type="github">
+  <diagram id="FAf7YjHN-YXLqCkr2gj-" name="Page-1">
+    <mxGraphModel dx="2027" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-2" value="Merchant" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="S0vh2KJbVhoChlPx9gCo-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="100" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-5" value="&lt;div&gt;&lt;span style=&quot;font-size: 11.04pt ; font-family: &amp;#34;calibri light&amp;#34;&quot;&gt;Cgate&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="S0vh2KJbVhoChlPx9gCo-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="500" as="sourcePoint" />
+            <mxPoint x="340" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-7" value="Biller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="S0vh2KJbVhoChlPx9gCo-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="500" as="sourcePoint" />
+            <mxPoint x="580" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-13" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;GetDetails-request&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="580" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-16" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;GetDetails-response&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="350" as="sourcePoint" />
+            <mxPoint x="340" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-17" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;PaymentNotification-request&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="340" y="610" as="sourcePoint" />
+            <mxPoint x="580" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-18" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;PaymentNotification&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;-response&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="650" as="sourcePoint" />
+            <mxPoint x="340" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-19" value="customer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="S0vh2KJbVhoChlPx9gCo-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="500" as="sourcePoint" />
+            <mxPoint x="-140" y="729.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-21" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px&quot;&gt;Ussd string syntax dialled&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="140" />
+            </Array>
+            <mxPoint x="-140" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-22" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;Ussd string syntax dialled&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-140" y="240" as="sourcePoint" />
+            <mxPoint x="100" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-23" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;GetDetails-request&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="280" as="sourcePoint" />
+            <mxPoint x="340" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-24" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;GetDetails-response&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="390" as="sourcePoint" />
+            <mxPoint x="100" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-25" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;PaymentNotification-request&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="570" as="sourcePoint" />
+            <mxPoint x="340" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-26" value="&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;PaymentNotification&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 14.72px ; text-align: left&quot;&gt;-response&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="690" as="sourcePoint" />
+            <mxPoint x="100" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-27" value="&lt;div&gt;&lt;span style=&quot;font-size: 11.04pt ; font-family: &amp;#34;calibri light&amp;#34;&quot;&gt;1、customerRef&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11.04pt ; font-family: &amp;#34;calibri light&amp;#34;&quot;&gt;2、merchantId&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11.04pt ; font-family: &amp;#34;calibri light&amp;#34;&quot;&gt;3、shortCode/backCode&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S0vh2KJbVhoChlPx9gCo-28" value="1、&lt;span style=&quot;font-family: &amp;#34;calibri light&amp;#34; ; font-size: 11.04pt&quot;&gt;traceId&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="390" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
