@@ -1,1 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T09:48:23.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="17.0.0" etag="C2UiEQubcGybQv2psThL" type="github"><diagram id="DTb0DBWxI_fAw0stkX-Z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-09T11:28:18.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cFLtssqE3__r8I81mWxE" version="17.0.0" type="github" pages="2">
+  <diagram id="DTb0DBWxI_fAw0stkX-Z" name="执行流程">
+    <mxGraphModel dx="1038" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-23" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="499" y="530" width="270" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;span&gt;&lt;b&gt;TaskProcesser&lt;/b&gt;&lt;/span&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;i&gt;Interface&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;BaseResp&lt;span&gt;&amp;nbsp;taskExecute(BaseReq)&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="620" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;span&gt;&lt;b&gt;TaskProcesserImpl&lt;/b&gt;&lt;/span&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;i&gt;class&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;BaseResp&lt;span&gt;&amp;nbsp;taskExecute(BaseReq){... ...}&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="733" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gC5NSNKIQOHYEeJcPXgZ-10" target="gC5NSNKIQOHYEeJcPXgZ-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="534" y="520" as="sourcePoint" />
+            <mxPoint x="694" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-21" value="依赖Jar包" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="524" y="835.5" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gC5NSNKIQOHYEeJcPXgZ-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="534" y="640" as="sourcePoint" />
+            <mxPoint x="634" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-24" value="&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="59" y="530" width="220" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87" y="620" width="165" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="543" as="sourcePoint" />
+            <mxPoint x="495.76" y="542.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-27" value="Load脚本文件（Jar包）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="319" y="513" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.355;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="593" as="sourcePoint" />
+            <mxPoint x="499" y="593.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-29" value="Reflect实现类TaskProcesserImpl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="289" y="563" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="282.24" y="637" as="sourcePoint" />
+            <mxPoint x="499" y="636.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-32" value="入参:&lt;br&gt;BaseReq.stepNum=0&lt;br&gt;出参:&lt;br&gt;&lt;div&gt;BaseResp.stepNum=&lt;b&gt;m&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;BaseResp.contextMap={...}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;BaaseResp.isFinish=false&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;BaseResp.capduList={...}&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="312.38" y="641" width="153.24" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-34" value="&lt;span style=&quot;text-align: left&quot;&gt;call方法taskExecute&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320.62" y="614" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-35" value="&lt;b&gt;CTST&lt;br&gt;Script-Engin&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="113.5" y="535" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gC5NSNKIQOHYEeJcPXgZ-38" target="gC5NSNKIQOHYEeJcPXgZ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-38" value="&lt;b&gt;Cache信息&lt;/b&gt;&lt;br&gt;&lt;span&gt;stepNum&lt;/span&gt;&lt;br&gt;&lt;span&gt;contexMap&lt;/span&gt;&lt;br&gt;&lt;span&gt;isFinish&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="117" y="654" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="277.24" y="786" as="sourcePoint" />
+            <mxPoint x="494" y="785.6799999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-40" value="入参:&lt;br&gt;BaseReq.stepNum=&lt;b&gt;m&lt;/b&gt;&lt;br&gt;BaseReq.contexMap={...}&lt;br&gt;出参:&lt;br&gt;&lt;div&gt;&lt;span&gt;BaseResp.stepNum=n&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;BaseResp.contextMap={...}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;BaaseResp.isFinish=false&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;BaseResp.capduList={...}&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307.38" y="790" width="153.24" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-41" value="&lt;span style=&quot;text-align: left&quot;&gt;call方法taskExecute&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="315.62" y="763" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gC5NSNKIQOHYEeJcPXgZ-44" target="gC5NSNKIQOHYEeJcPXgZ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-44" value="&lt;b&gt;Send to Card&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="117" y="733" width="105" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-50" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gC5NSNKIQOHYEeJcPXgZ-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="833" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-53" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gC5NSNKIQOHYEeJcPXgZ-45" target="gC5NSNKIQOHYEeJcPXgZ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-45" value="isFinish" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="117" y="783" width="57.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-46" value="&lt;span style=&quot;font-weight: 700 ; text-align: left&quot;&gt;call方法taskExecute&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113.5" y="835.5" width="105" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-47" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="199.5" y="788" width="22.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-56" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+          <mxGeometry x="252" y="540" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-61" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-one-fill-128.png" vertex="1" parent="1">
+          <mxGeometry x="299" y="518" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-62" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-two-fill-128.png" vertex="1" parent="1">
+          <mxGeometry x="279" y="568" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-64" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-four-fill-128.png" vertex="1" parent="1">
+          <mxGeometry x="87" y="621" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-65" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-three-fill-128.png" vertex="1" parent="1">
+          <mxGeometry x="307.38" y="614" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-67" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-five-fill-128.png" vertex="1" parent="1">
+          <mxGeometry x="300.62" y="763" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-68" value="&lt;b&gt;Script JarFile&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="589" y="548" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-69" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-circle-six-fill-128.png" vertex="1" parent="1">
+          <mxGeometry x="106.5" y="621" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-72" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.128;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="940.3199999999999" as="sourcePoint" />
+            <mxPoint x="495.76" y="939.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gC5NSNKIQOHYEeJcPXgZ-73" value="&lt;span style=&quot;text-align: left&quot;&gt;Loop call方法taskExecute&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="303" y="920" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MPzV4Yrkr5ZfgHS-EMmR" name="伪代码">
+    <mxGraphModel dx="1038" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="YnfjXB0vnyMLYhylSGmG-0" />
+        <mxCell id="YnfjXB0vnyMLYhylSGmG-1" parent="YnfjXB0vnyMLYhylSGmG-0" />
+        <mxCell id="YnfjXB0vnyMLYhylSGmG-2" value="&lt;span&gt;public class TaskProcesserImpl implements&amp;nbsp;&amp;nbsp;TaskProcesser{&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;BaseResp taskExecute(BaseReq req){&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;BaseResp resp = new BaseResp();&lt;/blockquote&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;switch(req.getStepNum){&lt;br&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;case 0:{&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;//do something&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;resp.setContextMap(...);&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;resp.setStepNum(n)&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;resp.setCapduList(...);&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;break;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;case m:{&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;req.getContextMap();&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;req.getRapdu();&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;//do something&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;resp.setContextMap(...);&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;resp.setStepNum(m)&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;resp.setCapduList(...);&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;break;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;case n:{&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;//do something&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;break;&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;defautl:{&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&amp;nbsp;resp.setFinish(true);&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;return resp;&lt;/span&gt;&lt;/blockquote&gt;&lt;span&gt;}&lt;/span&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontStyle=0" vertex="1" parent="YnfjXB0vnyMLYhylSGmG-1">
+          <mxGeometry x="210" y="450" width="310" height="482" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
