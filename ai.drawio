@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-24T11:51:29.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="4fWe3znK2bQyQ43tqz_h" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-24T12:29:27.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="2zsZKefcuLoVuNslTMg1" version="22.1.11" type="github" pages="2">
   <diagram name="LLM" id="3DlHLGJXzKx2nmoPrJNQ">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,77 @@
         </mxCell>
         <mxCell id="L2iHrLUZd3MNULrpQASm-11" value="&lt;h1&gt;改写（Rewrite）&lt;br&gt;&lt;/h1&gt;&lt;p&gt;文本纠错、文本润色、文本翻译&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="680" width="420" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EaiEcdJ-I_DlEpoy9Nn1" name="GPT">
+    <mxGraphModel dx="2213" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNPvC7qzHjSaxT-Cyp38-1" target="UNQpuyh2CjBS3bRXUQbx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNPvC7qzHjSaxT-Cyp38-1" target="UNQpuyh2CjBS3bRXUQbx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNPvC7qzHjSaxT-Cyp38-1" target="UNQpuyh2CjBS3bRXUQbx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNPvC7qzHjSaxT-Cyp38-1" target="UNQpuyh2CjBS3bRXUQbx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNPvC7qzHjSaxT-Cyp38-1" target="UNQpuyh2CjBS3bRXUQbx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNPvC7qzHjSaxT-Cyp38-1" value="版本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ySed9VaLxDCvpfgI67wI-1" target="wNPvC7qzHjSaxT-Cyp38-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySed9VaLxDCvpfgI67wI-1" value="GPT&lt;br&gt;&lt;a href=&quot;https://www.bilibili.com/read/cv25112949/&quot;&gt;https://www.bilibili.com/read/cv25112949/&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-1" value="&lt;h1&gt;GTP&lt;br&gt;&lt;/h1&gt;&lt;p&gt;语言生成：GPT 模型可以用于生成自然语言文本，例如文章、对话、新闻、小说等。这种应用场景可以应用于自动写作、机器翻译、智能客服等领域。&lt;/p&gt;&lt;p&gt;语言理解：GPT 模型可以用于自然语言理解，例如文本分类、情感分析、实体识别等。这种应用场景可以应用于搜索引擎、广告推荐、舆情监测等领域。&lt;/p&gt;&lt;p&gt;对话系统：GPT 模型可以用于构建对话系统，例如智能客服、聊天机器人等。这种应用场景可以应用于客户服务、娱乐等领域。&lt;/p&gt;&lt;p&gt;语言模型：GPT 模型可以用于构建语言模型，例如语音识别、机器翻译等。这种应用场景可以应用于智能家居、智能交通等领域。&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-20" width="860" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNQpuyh2CjBS3bRXUQbx-2" target="UNQpuyh2CjBS3bRXUQbx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNQpuyh2CjBS3bRXUQbx-2" target="UNQpuyh2CjBS3bRXUQbx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-2" value="&lt;h1&gt;GTP2&lt;br&gt;&lt;/h1&gt;&lt;p&gt;文本生成：GPT-2 可以学习大量的文本数据，并生成类似于人类写作的文章、故事或诗歌。&lt;/p&gt;&lt;p&gt;机器翻译：GPT-2 可以将一种语言的文本翻译成另一种语言的文本，如中英文互译。&lt;/p&gt;&lt;p&gt;情感分析：利用 GPT-2 进行情感分析，可以判断一段文本表达的情感是积极、消极还是中立。&lt;/p&gt;&lt;p&gt;文本分类：GPT-2 可以将文本归类为不同的类别，如新闻分类、电影评价分类等。&lt;/p&gt;&lt;p&gt;问答系统：GPT-2 可以回答用户提出的问题，并提供相关的信息和解决方案。&lt;/p&gt;&lt;p&gt;对话系统：GPT-2 可以模拟人类对话，与用户进行交互，并回答用户提出的问题。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="520" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-3" value="&lt;h1&gt;GTP3&lt;br&gt;&lt;/h1&gt;&lt;p&gt;自然语言生成：GPT-3 可以用于自动生成文章、电子邮件、产品描述等各种类型的文本。&lt;/p&gt;&lt;p&gt;智能客服：GPT-3 可以用于构建聊天机器人，解决客户的问题并提供帮助。&lt;/p&gt;&lt;p&gt;写作助手：GPT-3 可以提供主题、段落和句子建议，同时根据用户输入的数据自动生成合适的文本。&lt;/p&gt;&lt;p&gt;语言翻译：GPT-3 可以用于翻译不同语言之间的文本，从而促进跨文化交流。&lt;/p&gt;&lt;p&gt;自动摘要：GPT-3 可以用于自动提取一篇文章或文档的主要信息和重点，从而帮助用户更快地了解其内容。&lt;/p&gt;&lt;p&gt;虚拟助手：GPT-3 可以用于构建虚拟助手，例如 Siri 或 Alexa。它可以理解用户的指令，并执行相应的操作。&lt;/p&gt;&lt;p&gt;个性化推荐：GPT-3 可以分析用户的历史行为和偏好，从而为他们提供个性化的商品和服务推荐。&lt;/p&gt;&lt;p&gt;智能搜索：GPT-3 可以用于改进搜索引擎结果，提供更准确的答案和建议。&lt;/p&gt;&lt;p&gt;自动化编程：GPT-3 可以用于自动生成代码和脚本，从而节省开发者的时间并减少错误的产生。&lt;/p&gt;&lt;p&gt;艺术创作：GPT-3 的文本生成能力可以用于创作诗歌、小说、剧本等艺术形式，从而提供新颖的文学体验。&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="540" width="910" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNQpuyh2CjBS3bRXUQbx-4" target="UNQpuyh2CjBS3bRXUQbx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNQpuyh2CjBS3bRXUQbx-4" target="UNQpuyh2CjBS3bRXUQbx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-4" value="&lt;h1&gt;GTP3.5&lt;br&gt;&lt;/h1&gt;&lt;p&gt;GPT3.5 模型上和之前 GPT-3 都没有太大变化，主要变化的是训练策略变了，用上了强化学习&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="920" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-5" value="&lt;h1&gt;GTP4&lt;br&gt;&lt;/h1&gt;&lt;p&gt;内容创作与编辑：&lt;span style=&quot;background-color: initial;&quot;&gt;GPT-4 在文本生成方面的优秀表现为创作者提供了强大的支持。从撰写软文、博客文章到书籍创作，GPT-4 都能够根据用户需求生成高质量的内容。同时，GPT-4 还具有智能纠错和编辑功能，能帮助用户快速优化文本，提高工作效率。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;语言翻译：&lt;span style=&quot;background-color: initial;&quot;&gt;借助 GPT-4 的深度学习技术，语言翻译领域得以实现实时、准确的翻译服务。GPT-4 支持多种语言之间的互译，为国际交流和合作提供了便捷的语言沟通桥梁。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;客服与支持：&lt;span style=&quot;background-color: initial;&quot;&gt;越来越多的企业开始将 GPT-4 应用于在线客服系统，实现智能、高效的用户服务。GPT-4 可以根据用户提问快速生成准确、专业的回答，大大提高了客户满意度和客服效率。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;智能教育：&lt;span style=&quot;background-color: initial;&quot;&gt;GPT-4 在教育领域的应用前景也十分广阔。AI 辅导系统可以为学生提供个性化的学习建议和答疑解惑服务。此外，GPT-4 还可用于编写教材、教案等教育资源，为老师们分担工作负担。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;游戏开发：&lt;span style=&quot;background-color: initial;&quot;&gt;GPT-4 在游戏领域也发挥着重要作用。开发者可以利用 GPT-4 生成各种游戏场景、角色对话和剧情设计，为玩家创造丰富、独特的游戏体验。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;语音助手：&lt;span style=&quot;background-color: initial;&quot;&gt;语音助手已经成为人们日常生活中不可或缺的一部分。GPT-4 通过自然语言处理技术，使得语音助手可以更好地理解用户的需求并提供更精确的回应，满足人们在生活、工作等方面的需求。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;数据分析与可视化：&lt;span style=&quot;background-color: initial;&quot;&gt;GPT-4 可应用于数据分析领域，通过对大量数据进行深度挖掘，帮助企业和个人发现潜在价值。同时，GPT-4 还能生成清晰易懂的可视化图表，使数据分析结果更直观、更易于理解。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;法律咨询：&lt;span style=&quot;background-color: initial;&quot;&gt;借助 GPT-4 的知识储备和智能推理能力，用户可以在法律问题上获得专业的解答和建议。这将大大降低人们在法律咨询方面的成本和时间投入。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;医疗领域：&lt;span style=&quot;background-color: initial;&quot;&gt;GPT-4 在医疗领域的应用也日益受到关注。AI 模型可以协助医生进行病例分析、诊断建议等工作，提高医疗服务的准确性和效率。此外，GPT-4 还可以为患者提供健康咨询和科普知识，提高大众的健康意识。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;人工智能伦理与监管：&lt;span style=&quot;background-color: initial;&quot;&gt;随着 GPT-4 等 AI 技术的普及，人工智能伦理和监管问题日益凸显。GPT-4 可以帮助相关机构研究、制定相应的政策和规范，确保 AI 技术在合规、安全的环境下发展。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1089" width="1360" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-13" value="&lt;div&gt;优点：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;生成能力强大：GPT-2 在生成文本方面具有出色的能力，可以生成连贯、流畅的文章、故事甚至代码片段。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;上下文理解：该模型通过学习大量的文本数据，能够理解上下文并生成具有逻辑关联性的回复。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;多领域应用：GPT-2 对于多个领域的任务都具有良好的适用性，包括机器翻译、摘要生成、对话系统等。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;预训练模型可用性：GPT-2 的预训练模型已经在公开领域发布，可以方便地进行微调以适应特定任务需求。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;语言表达多样性：GPT-2 能够生成多样化的语言表达，从正式到口语化、幽默到严肃，使得生成的文本更加生动和富有趣味性。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="130" width="730" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-14" value="&lt;div&gt;缺点：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;缺乏常识和实际知识：尽管 GPT-2 可以生成连贯的文本，但它没有自己的常识和实际知识，容易受到错误或误导性信息的影响。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;对抗性样本的漏洞：GPT-2 容易受到对抗性样本的攻击，即通过故意构造的输入来欺骗模型，导致不准确或误导性的输出。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;缺乏创造性和主动性：GPT-2 是基于大量数据的统计模型，没有真正的创造性和主动性，只能在已有的知识范围内生成文本。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;存在长期依赖问题：GPT-2 在处理长文本时，可能会遇到长期依赖问题，导致生成的文本在逻辑上不一致或不连贯。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;可解释性差：GPT-2 是一个黑盒模型，它的决策过程难以解释，无法提供详细的推理或证据支持。&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="380" width="730" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-16" value="&lt;div&gt;优点：&lt;/div&gt;&lt;div&gt;多功能性：GPT3.5 可以回答各种问题，提供创意灵感，支持语音识别等多种功能，可以应用于多个领域，如技术支持、智能客服、文本生成等。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;自然语言处理能力：GPT3.5 具备较强的自然语言处理能力，可以模拟人类对话，表达思想和感情，提供更加自然流畅的回答。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;多语种支持：GPT3.5 支持多种语言，可以满足不同国家和地区的语言需求。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;智能学习：GPT3.5 可以通过对大量数据进行学习，不断提高自身的表达能力和回答准确率，具备一定的智能学习能力。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;便捷性：GPT3.5 可以通过第三方的应用程序或者网站、OpenAI 提供的 API 或者在 OpenAI 官方网站上使用，使用起来非常便捷。&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="790" width="860" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UNQpuyh2CjBS3bRXUQbx-17" value="缺点：&lt;br&gt;&lt;div&gt;可能存在偏见：由于 GPT3.5 是通过对大量数据进行学习得到的，可能存在数据偏见的问题。这可能导致 GPT3.5 对某些群体或某些观点的回答存在偏见。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;缺乏人情味：尽管 GPT3.5 可以模拟人类对话，但它仍然缺乏真正的情感和人性化，无法像真正的人类一样进行复杂的思考和情感表达。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;需要大量数据：为了让 GPT3.5 具备较高的回答准确率和表达能力，需要训练大量的数据，这需要消耗大量的时间和资源。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;可能存在安全隐患：在使用 GPT3.5 模型时，需要输入一定的文本或语音数据，这可能会导致个人隐私泄露的风险。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="990" width="860" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
