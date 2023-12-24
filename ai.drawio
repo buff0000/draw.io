@@ -1,4 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-12-24T12:29:27.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="2zsZKefcuLoVuNslTMg1" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-24T15:30:35.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="dgSC7Jr43SWg79Ky34Nv" version="22.1.11" type="github" pages="3">
+  <diagram id="FvDSmHw4C2hg5DXZBCbz" name="连接">
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="深入浅出：大语言模型中必不可少的技术——Embedding简介" link="http://www.360doc.com/content/23/1003/09/47115229_1098797808.shtml" id="GIx1Bvny36EsjJ5DbA9I-1">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;align=left;" vertex="1" parent="1">
+            <mxGeometry x="40" y="40" width="450" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="LLM" id="3DlHLGJXzKx2nmoPrJNQ">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
