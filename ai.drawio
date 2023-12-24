@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-12-24T11:11:57.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.11" etag="in_K9F46XTjNGTE3WftA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-24T11:20:58.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="n4sHJ3-r6l90CvyC_4wD" version="22.1.11" type="github">
   <diagram name="第 1 页" id="3DlHLGJXzKx2nmoPrJNQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L2iHrLUZd3MNULrpQASm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2iHrLUZd3MNULrpQASm-1" target="L2iHrLUZd3MNULrpQASm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2iHrLUZd3MNULrpQASm-1" target="L2iHrLUZd3MNULrpQASm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2iHrLUZd3MNULrpQASm-1" target="L2iHrLUZd3MNULrpQASm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2iHrLUZd3MNULrpQASm-1" target="L2iHrLUZd3MNULrpQASm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2iHrLUZd3MNULrpQASm-1" target="L2iHrLUZd3MNULrpQASm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2iHrLUZd3MNULrpQASm-1" target="L2iHrLUZd3MNULrpQASm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-1" value="核心能力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2iHrLUZd3MNULrpQASm-2" target="L2iHrLUZd3MNULrpQASm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-2" value="LLM--大语言模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-5" value="&lt;h1&gt;生成（Generate）&lt;br&gt;&lt;/h1&gt;&lt;p&gt;聊天助手、写作助手、知识问答助手&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-7" value="&lt;h1&gt;总结（Summarize）&lt;br&gt;&lt;/h1&gt;&lt;p&gt;在线视频会议、电话会议内容总结；私有化知识库文档总结；报告、文章、邮件等工作性文本总结&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-8" value="&lt;h1&gt;提取（Extract）&lt;br&gt;&lt;/h1&gt;&lt;p&gt;文档命名实体提取、文章关键词提取、视频标签生成&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-9" value="&lt;h1&gt;分类（Classify）&lt;br&gt;&lt;/h1&gt;&lt;p&gt;网络平台敏感内容审核，社交媒体评论情感分析，电商平台用户评价分类&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-10" value="&lt;h1&gt;检索（Search）&lt;br&gt;&lt;/h1&gt;&lt;p&gt;文本语义检索、图片语义检索、视频语义检索；电商产品语义检索；招聘简历语义检索&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2iHrLUZd3MNULrpQASm-11" value="&lt;h1&gt;改写（Rewrite）&lt;br&gt;&lt;/h1&gt;&lt;p&gt;文本纠错、文本润色、文本翻译&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="680" width="420" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
