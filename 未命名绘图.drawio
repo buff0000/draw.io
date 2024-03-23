@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T08:28:33.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="RXzBRTZeaXI2IjTVG5pO" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-23T08:30:18.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="BCHLcABkY5EzIY5dW4Ue" version="24.0.8" type="github">
   <diagram name="第 1 页" id="iLwtRstfEa1X_a1qnkbH">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="2bv0xw0G7mWe7me0fBdQ-2" value="脚本内容" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="1">
           <mxGeometry x="110" y="150" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2bv0xw0G7mWe7me0fBdQ-1" value="脚本标准SDK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="1">
+        <mxCell id="2bv0xw0G7mWe7me0fBdQ-1" value="脚本标准SDK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
           <mxGeometry x="110" y="260" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2bv0xw0G7mWe7me0fBdQ-4" value="工具包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
